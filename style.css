@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: bold;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 80%;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0 0 20px 0;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    width: 200px;
+}
+
+#increment-btn {
+    background-color: #2C2891;
+}
+
+#save-btn {
+    background-color: #1C7947;
+}
